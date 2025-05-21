@@ -23,15 +23,30 @@ SQL Server (or local DB of your choice)
 
 Swagger (for API testing and documentation)
 
-BookManagementAPI/
-├── Controllers/
-│   └── BooksController.cs
-├── Data/
-│   └── AppDbContext.cs
-├── Models/
-│   └── Book.cs
-├── Program.cs
-├── appsettings.json
+BookManagementAPI:
+ Controllers
+- V1:BooksController.cs
+-V2: BooksController.cs
+
+Data: Books.csv
+DTO:
+  - V1:
+    - LinkDTO.cs
+    - RestDTO.cs
+  - V2:
+     - LinkDTO.cs
+    - RestDTO.cs
+  - BookDTO.cs
+Models: 
+  - Book.cs
+  - AppDbContext.cs
+  - Book_Domains.cs
+  - Book_Mechanics.cs
+  - Domain.cs
+  - Mechanic.cs
+Program.cs
+appsettings.json
+
 🧑‍💻 Getting Started
 Prerequisites
 .NET 8 SDK
