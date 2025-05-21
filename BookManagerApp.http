@@ -1,0 +1,6 @@
+@BookManagerApp_HostAddress = http://localhost:5045
+
+GET {{BookManagerApp_HostAddress}}/bookmanager/
+Accept: application/json
+
+###
